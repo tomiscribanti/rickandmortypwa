@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Thomas Escribanti, Catedra PWA</title>
+  <link rel="style icon" href="./icon/icon-192x192.png">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a href="index.html"><img src="./icon/icon-192x192.png" alt="icon" class="rick"></a>
+    <p class="logo mt-4">Conectado a internet</p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav ms-auto">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="fav.html">Favoritos</a></li>
+        <li><a href="ep.html">Trailers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container" id="cards-favs">
+    <h2 class="text-center">Personajes favoritos</h2>
+
+    <div class="container mt-5" id="favs-cards">
+
+      <!-- Las cards acá-->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+      </div>
+    </div>
+  </div>
+    <footer class="contenedor__footer mt-5">
+      <div class="social">
+        <a
+          href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Des-419&ss=1&scc=1&ltmpl=default&ltmplcache=2&hl=es-419&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i
+            class="far fa-envelope"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">Thomas Escribanti</a></li>
+        <li><a href="#">Aplicaciones Web Progresivas</a></li>
+        <li><a href="#">dwm3av</a></li>
+        <li><a href="#">2022</a></li>
+      </ul>
+      <p class="copy">
+        Thomas escribanti @Todos los derechos reservados 2022.
+      </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="./js/register-sw.js"></script>
+    <script src="./js/fav.js"></script>
+</body>
+
+</html>
