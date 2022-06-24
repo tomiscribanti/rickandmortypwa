@@ -1,2 +1,4 @@
 # rickandmortypwa
- Una pwa de la api de rick and morty
+Thomas Escribanti
+Comision dwn3av
+Instrucciones? 0.
